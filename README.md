@@ -1,10 +1,10 @@
-# 🤖 Multi-Platform Master Chatbot Hub
+# Multi-Platform Master Chatbot Hub
 
 A professional, high-fidelity AI-powered chatbot hub designed for complex decision-tree automation, supporting single-sign-on (SSO) via Laravel Sanctum, real-time agent handoff, and integrated payment gateways.
 
 ---
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### 1. Backend (FastAPI)
 - **Directory**: `/backend`
@@ -25,9 +25,9 @@ A professional, high-fidelity AI-powered chatbot hub designed for complex decisi
 
 ---
 
-## 🛠 Integration Points
+## Integration Points
 
-### 🔑 External Auth (HiTeam / Laravel)
+### External Auth (HiTeam / Laravel)
 The chatbot is ready to authenticate users from your existing platforms.
 - **Logic**: See `backend/server.py` -> `validate_sanctum_token`.
 - **Config**: Set `SANCTUM_API_URL` in your `.env`.
@@ -38,7 +38,7 @@ Pull data from these endpoints into your existing dashboards:
 - **Active Sessions**: `GET /api/chat/sessions`
 - **Payment Success**: `GET /api/payments`
 
-### 📦 SDKs
+### SDKs
 Pre-built SDKs for seamless backend-to-backend integration:
 - **PHP**: `php-sdk/`
 - **JavaScript**: `sdk/chatbot_sdk.js`
@@ -46,7 +46,7 @@ Pre-built SDKs for seamless backend-to-backend integration:
 
 ---
 
-## 📁 Key Directories
+## Key Directories
 - `backend/`: FastAPI Python server and core logic.
 - `frontend/`: Expo mobile and web dashboard.
 - `php-sdk/`: Drop-in PHP class for Laravel/PHP integrations.
@@ -55,6 +55,6 @@ Pre-built SDKs for seamless backend-to-backend integration:
 
 ---
 
-## 📄 Handover
+## Handover
 For technical analysts and developers taking over this repo, please refer to:
-👉 **[DEVELOPER_HANDOVER.md](DEVELOPER_HANDOVER.md)**
+ **[DEVELOPER_HANDOVER.md](DEVELOPER_HANDOVER.md)**

@@ -1,6 +1,6 @@
 # Multi-Platform Master Chatbot Hub
 
-A professional, high-fidelity AI-powered chatbot hub designed for complex decision-tree automation, supporting single-sign-on (SSO) via Laravel Sanctum, real-time agent handoff, and integrated payment gateways.
+An AI-powered chatbot hub designed for complex decision-tree automation, supporting single-sign-on (SSO) via Laravel Sanctum, real-time agent handoff, and integrated payment gateways.
 
 ---
 
@@ -32,7 +32,7 @@ The chatbot is ready to authenticate users from your existing platforms.
 - **Logic**: See `backend/server.py` -> `validate_sanctum_token`.
 - **Config**: Set `SANCTUM_API_URL` in your `.env`.
 
-### 📊 Sales Dashboard / Stats
+### Sales Dashboard / Stats
 Pull data from these endpoints into your existing dashboards:
 - **Stats Summary**: `GET /api/admin/stats`
 - **Active Sessions**: `GET /api/chat/sessions`

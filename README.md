@@ -1,6 +1,6 @@
 # Multi-Platform Master Chatbot Hub
 
-An AI-powered chatbot hub designed for complex decision-tree automation, supporting single-sign-on (SSO) via Laravel Sanctum, real-time agent handoff, and integrated payment gateways.
+A chatbot hub designed for complex decision-tree automation, supporting single-sign-on (SSO) via Laravel Sanctum, real-time agent handoff, and integrated payment gateways.
 
 ---
 

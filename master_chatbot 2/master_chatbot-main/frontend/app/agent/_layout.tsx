@@ -1,0 +1,12 @@
+import { Stack } from 'expo-router';
+
+export default function AgentLayout() {
+  return (
+    <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#FFFFFF' }, animation: 'slide_from_right' }}>
+      <Stack.Screen name="login" />
+      <Stack.Screen name="dashboard" />
+      <Stack.Screen name="chat" />
+      <Stack.Screen name="languages" />
+    </Stack>
+  );
+}

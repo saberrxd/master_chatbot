@@ -1,0 +1,186 @@
+{
+  "persona": {
+    "identity": "E1: The Anti-AI Designer",
+    "philosophy": "Fusion over Imitation. Emotion First. Content is King. Zoom In. Negative Space. Contrast.",
+    "anti_patterns": [
+      "Purple/Teal for CTA",
+      "Inter everywhere (Headings)",
+      "Center-Everything Disease",
+      "Gradient Overload"
+    ]
+  },
+  "project_context": {
+    "app_name": "Chatbot SDK & Admin",
+    "platform": "Expo React Native (Mobile) + Web Admin (Responsive)",
+    "theme": "Light Mode Only",
+    "primary_color": "Golden Yellow (#F5A623)",
+    "vibe": "Professional, Trustworthy, Efficient, Clean"
+  },
+  "design_system": {
+    "typography": {
+      "headings": {
+        "family": "Manrope",
+        "weights": ["600", "700", "800"],
+        "usage": "Screen Titles, Modal Headers, Important Stats"
+      },
+      "body": {
+        "family": "Inter",
+        "weights": ["400", "500", "600"],
+        "usage": "Chat Bubbles, Form Inputs, Descriptions"
+      },
+      "monospace": {
+        "family": "JetBrains Mono",
+        "usage": "Code snippets, API Keys"
+      }
+    },
+    "colors": {
+      "primary": {
+        "DEFAULT": "#F5A623",
+        "foreground": "#FFFFFF",
+        "50": "#FFF8E1",
+        "100": "#FFECB3",
+        "200": "#FFE082",
+        "300": "#FFD54F",
+        "400": "#FFCA28",
+        "500": "#F5A623",
+        "600": "#FB8C00",
+        "700": "#F57C00",
+        "800": "#EF6C00",
+        "900": "#E65100"
+      },
+      "secondary": {
+        "DEFAULT": "#1A1A1A",
+        "foreground": "#FFFFFF"
+      },
+      "background": "#FFFFFF",
+      "surface": "#F9FAFB",
+      "surface_highlight": "#F3F4F6",
+      "border": "#E5E7EB",
+      "text": {
+        "primary": "#111827",
+        "secondary": "#4B5563",
+        "muted": "#9CA3AF",
+        "inverted": "#FFFFFF"
+      },
+      "status": {
+        "success": "#10B981",
+        "error": "#EF4444",
+        "warning": "#F59E0B",
+        "info": "#3B82F6"
+      }
+    },
+    "spacing": {
+      "base_unit": 4,
+      "scale": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px",
+        "2xl": "48px",
+        "3xl": "64px"
+      },
+      "layout": {
+        "page_padding": "16px",
+        "card_padding": "20px",
+        "section_gap": "32px"
+      }
+    },
+    "radius": {
+      "sm": "6px",
+      "md": "12px",
+      "lg": "20px",
+      "full": "9999px",
+      "chat_bubble": "20px"
+    },
+    "shadows": {
+      "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+      "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+      "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+      "gold_glow": "0 4px 14px 0 rgba(245, 166, 35, 0.39)"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#F5A623] text-white rounded-full shadow-gold_glow font-bold active:scale-95 transition-transform",
+      "secondary": "bg-white border border-gray-200 text-gray-900 rounded-full font-medium active:bg-gray-50",
+      "ghost": "bg-transparent text-gray-600 font-medium active:bg-gray-100 rounded-lg"
+    },
+    "inputs": {
+      "default": "bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:border-[#F5A623] focus:ring-1 focus:ring-[#F5A623]",
+      "chat": "bg-white border border-gray-200 rounded-full px-5 py-3 shadow-sm focus:border-[#F5A623]"
+    },
+    "chat_bubbles": {
+      "user": "bg-[#F5A623] text-white rounded-2xl rounded-tr-sm self-end max-w-[80%]",
+      "bot": "bg-gray-100 text-gray-900 rounded-2xl rounded-tl-sm self-start max-w-[80%] border border-gray-200",
+      "system": "bg-blue-50 text-blue-800 text-xs px-3 py-1 rounded-full self-center my-2"
+    },
+    "cards": {
+      "default": "bg-white rounded-2xl border border-gray-100 shadow-sm p-5",
+      "interactive": "bg-white rounded-2xl border border-gray-100 shadow-sm p-5 active:scale-[0.98] transition-transform"
+    }
+  },
+  "assets": {
+    "icons": {
+      "library": "lucide-react-native",
+      "style": "Stroke width 2px, rounded joins",
+      "color": "CurrentColor"
+    },
+    "images": {
+      "avatars": [
+        "https://images.unsplash.com/photo-1769628027250-d2a7a5a4eb64?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMGF2YXRhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Mjg1OTQ4M3ww&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1758599543154-76ec1c4257df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMGF2YXRhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Mjg1OTQ4M3ww&ixlib=rb-4.1.0&q=85"
+      ],
+      "backgrounds": [
+        "https://images.unsplash.com/photo-1764268733601-f6f1c42a135a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjBnb2xkJTIwZ2VvbWV0cmljJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzI4NTk0ODN8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1761437856311-3ba13025f161?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjBnb2xkJTIwZ2VvbWV0cmljJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzI4NTk0ODN8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      "placeholders": {
+        "logo": "https://images.unsplash.com/photo-1658250273007-ced0cbd4c038?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMGF2YXRhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Mjg1OTQ4M3ww&ixlib=rb-4.1.0&q=85",
+        "payment_success": "https://images.unsplash.com/photo-1594938384824-022767a58e11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMGF2YXRhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Mjg1OTQ4M3ww&ixlib=rb-4.1.0&q=85"
+      }
+    }
+  },
+  "layout_strategies": {
+    "mobile_container": "flex-1 bg-white px-4 pt-4 pb-8",
+    "safe_area": "flex-1 bg-white pt-[Constants.statusBarHeight]",
+    "scroll_view": "flex-1 bg-white",
+    "section_header": "flex-row justify-between items-center mb-4",
+    "grid_dashboard": "flex-row flex-wrap justify-between gap-4"
+  },
+  "animation_guidelines": {
+    "library": "react-native-reanimated",
+    "transitions": {
+      "page_push": "Slide from right",
+      "modal_up": "Slide up from bottom with spring",
+      "fade": "Opacity 0 to 1 over 200ms"
+    },
+    "interactions": {
+      "button_press": "Scale down to 0.96",
+      "dropdown_open": "Expand height with spring damping 15"
+    }
+  },
+  "accessibility_rules": {
+    "contrast": "Text on Gold background must be White (if #F5A623) or Dark Grey. If White text on Gold fails contrast (it does, 1.6:1), use Dark Grey text on Gold buttons or darken the Gold to #D97706 for white text.",
+    "touch_targets": "Minimum 44x44px for all interactive elements",
+    "labels": "All inputs must have aria-label or accessibilityLabel"
+  },
+  "universal_guidelines_for_main_agent": [
+    "Install 'nativewind' and 'tailwindcss' immediately. The project is raw React Native.",
+    "Configure 'tailwind.config.js' to include './app/**/*.{js,jsx,ts,tsx}'.",
+    "Use 'clsx' and 'tailwind-merge' for class conditional logic.",
+    "For Chat UI: Do not use standard list view. Use 'FlashList' or optimized 'FlatList' with inverted prop for chat history.",
+    "For Dropdowns: Create a custom bottom sheet or modal for better mobile UX. Do not use native HTML select.",
+    "Admin Dashboard: Use a 'Masonry' or 'Bento' grid layout for stats cards on mobile.",
+    "Payment Integration: Use WebViews if native SDKs are too heavy, but style the loading state perfectly.",
+    "Do NOT use 'View' for everything. Use 'SafeAreaView' where appropriate.",
+    "Always handle 'KeyboardAvoidingView' behavior on iOS/Android for chat inputs."
+  ],
+  "instructions_to_main_agent": {
+    "step_1_setup": "Run: yarn add nativewind tailwindcss clsx tailwind-merge lucide-react-native expo-linear-gradient @shopify/flash-list react-native-svg",
+    "step_2_config": "Run: npx tailwindcss init. Update babel.config.js to include 'nativewind/babel'.",
+    "step_3_fonts": "Install @expo-google-fonts/manrope and @expo-google-fonts/inter. Load them in _layout.tsx.",
+    "step_4_navigation": "Use expo-router Stack for screens. Use Tabs for Admin Dashboard.",
+    "step_5_components": "Build 'Button', 'Input', 'ChatBubble', 'Dropdown' as reusable components first."
+  }
+}
